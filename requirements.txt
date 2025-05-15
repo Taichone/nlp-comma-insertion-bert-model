@@ -1,0 +1,9 @@
+mecab-python3
+transformers
+torch
+tqdm
+fugashi
+ipadic
+datasets
+unidic-lite
+accelerate 
