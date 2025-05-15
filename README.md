@@ -2,18 +2,6 @@
 大規模言語モデル BERT をベースとして、日本語テキストに読点を自動挿入する言語モデルです。
 作者の過去の文章を学習させておくことで、作者の読点位置の傾向を踏まえた出力にカスタマイズ可能です。
 
-## セットアップ
-
-1. MeCabのインストール:
-```bash
-brew install mecab mecab-ipadic
-```
-
-2. Pythonパッケージのインストール:
-```bash
-pip install -r requirements.txt
-```
-
 ## プロジェクト構造
 
 - `src/mecab_utils.py`: MeCabを使用した文節分割のユーティリティ
